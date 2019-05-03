@@ -1,0 +1,13 @@
+.block{
+    background: #ccc;
+    width:100%;
+    float: left;
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 15px;
+        .content{
+            background: pink;
+        }
+    }
+}
