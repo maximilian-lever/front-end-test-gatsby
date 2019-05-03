@@ -1,4 +1,4 @@
-# This is a Front end test for a junior react-gatsby dev
+# This is a Front End test for a Junior React/ Gatsby Developer
 
 The aim of this test is to ensure that you can style react/gatsby pages using scss modules
 
