@@ -1,13 +1,116 @@
+body{
+    background: rgb(242,242,242);
+    font-family: sans-serif;
+}
 .block{
-    background: #ccc;
-    width:100%;
-    float: left;
-    .container{
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 15px;
-        .content{
-            background: pink;
+    margin: 50px 75px 0px 75px;
+    background: rgb(242,242,242);
+    .darkGrey{
+        height: 275px;
+        background: rgb(34,34,34);
+        .black{
+            margin-left: 358px;
+            height: 275px;
+            width: 1394px;
+            color: rgb(255,255,255);
+            background: rgb(0,0,0);
+            padding: 30px 233px 0px 50px;
+            p:nth-child(1){
+                font-size: 11px;
+            }
+            p:nth-child(2){
+                margin-top: -10px;
+                line-height: 45px;
+                font-size: 40px;
+            }
+            p:nth-child(3){
+                margin-top: 60px;
+                font-size: 12px;
+            }
+        }
+    }
+    .white{
+        position: absolute;
+        padding: 26px 40px 0px 40px;
+        height: 200px;
+        width: 866px;
+        color: rgb(0,0,0);
+        background: rgb(255,255,255);
+        h2{
+            font-size: 21px;
+        }
+        p:nth-child(2){
+            font-size: 18px;
+        }
+        p:nth-child(3){
+            margin-top: -10px;
+            font-size: 12px;
+        }
+    }
+    .white:nth-child(2){
+        margin: 30px 0px 0px 0px;
+    }
+    .white:nth-child(3){
+        margin: 30px 0px 0px 887px;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    .block{
+        margin: 0px;
+        .darkGrey{
+            .black{
+                margin-left: 0px;
+            }
+        }
+        .white{
+            width: 750px;
+        }
+        .white:nth-child(2){
+            margin: 30px 0px 0px 0px;
+        }
+        .white:nth-child(3){
+            margin: 260px 0px 0px 0px;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .block{
+        margin: 0px;
+        .darkGrey{
+            .black{
+                margin-left: 0px;
+                width: 768px;
+            }
+        }
+        .white{
+            width: 768px;
+        }
+        .white:nth-child(2){
+            margin: 30px 0px 0px 0px;
+        }
+        .white:nth-child(3){
+            margin: 260px 0px 0px 0px;
+        }
+    }
+}
+@media (min-width:1024px) and (max-width:1025px){
+    .block{
+        margin: 0px;
+        .darkGrey{
+            .black{
+                margin-left: 0px;
+                width: 1024px;
+            }
+        }
+        .white{
+            width: 1024px;
+        }
+        .white:nth-child(2){
+            margin: 30px 0px 0px 0px;
+        }
+        .white:nth-child(3){
+            margin: 260px 0px 0px 0px;
         }
     }
 }
