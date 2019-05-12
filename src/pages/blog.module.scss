@@ -1,0 +1,147 @@
+// Wirewax Branch Colors
+$white: #ffffff;
+$black: #1d1d1b;
+$pink: #eba7c6;
+
+// Mobile: 491px
+// Tablet: 768px
+// Desktop: 991px
+
+.block{
+    background: #ccc;
+    width:100%;
+    float: left;
+    .container{
+        background-color: $white;
+        .content{
+            margin: 0 auto;
+            padding: 0 60px;
+            h1{
+                width: 240px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.1;
+                letter-spacing: -0.8px;
+                text-align: left;
+                color: $black;
+                @media (min-width: 768px) {
+                    width: 100%;
+                    font-size: 48px;
+                }
+                @media (min-width: 991px) {
+                    font-size: 60px;
+                    font-weight: 600;
+                    line-height: 1.17;
+                    letter-spacing: -2.4px;
+                    text-align: center;
+                }
+            }
+            .post{
+                @media (min-width: 991px){
+                    width: 45%;
+                }
+                img{
+                    width: 240px;
+                    height: auto;
+                    object-fit: contain;
+                    @media (min-width: 768px) {
+                        width: 576px;
+                    }
+                    @media (min-width: 991px) {
+                        width: 660px;
+                    }
+                }
+                p:nth-child(2){
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 8px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.5;
+                    letter-spacing: 1.3px;
+                    text-align: left;
+                    color: $black;
+                    @media (min-width: 768px) {
+                        font-size: 19.2px;
+                    }
+                    @media (min-width: 991px) {
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 2.6px;               
+                    }
+                }
+                h2{
+                    width: 240px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 1.22;
+                    letter-spacing: -0.4px;
+                    text-align: left;
+                    color: $black;
+                    @media (min-width: 768px) {
+                        width: 100%;
+                        font-size: 43px;
+                    }
+                    @media (min-width: 991px) {
+                        font-size: 22px;
+                        line-height: 1.36;
+                        text-align: left;
+                    }
+                }
+                p:nth-child(4){
+                    width: 240px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $black;
+                    @media (min-width: 768px) {
+                        margin-top: 90px;
+                        width: 100%;
+                        font-size: 38.4px;
+                    }
+                    @media (min-width: 991px) {
+                        margin-top: 0px;
+                        font-size: 18px;
+                        line-height: 1.56;
+                    }
+                }
+                button{
+                    width: 78.5px;
+                    height: 16px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 10px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.4;
+                    letter-spacing: 1.6px;
+                    text-align: center;
+                    background-color: $black;
+                    color: $white;
+                    @media (min-width: 768px) {
+                        margin-top: 100px;
+                        height: auto;
+                        width: 100%;
+                        font-size: 24px;
+                    }
+                    @media (min-width: 991px) {
+                        margin-top: 0px;
+                        width: 157.2px;
+                        height: 60px;
+                        font-size: 20px;
+                        background-color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
