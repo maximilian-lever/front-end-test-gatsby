@@ -2,6 +2,7 @@ import React from "react"
 import styles from './blog.module.scss'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import image from "../components/img/test-pattern-152459_960_720.png"
 
 const IndexPage = () => (
   <Layout>
@@ -11,7 +12,7 @@ const IndexPage = () => (
         <div className={styles.content}>
           <h1>Latest and greatest happenings</h1>
           <div className={styles.post}>
-            <img alt="Post picture"/>
+            <img alt="Post picture" src={image}/>
             <p>Announcements</p>
             <h2>Wayin And WIREWAX Announce Partnership To Incorporate Data Collecting 
               Experiences Into Interactive Videos</h2>
